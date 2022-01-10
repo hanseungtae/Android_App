@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void multiClick(View v){
         EditText number1 = (EditText) findViewById(R.id.number1);
-        EditText number2 = (EditText) findViewById(R.id.number2);
+        EditText number2 = (EditText) findViewById(R.id.number2);ㄴㅎ
         TextView result = (TextView) findViewById(R.id.result);
 
         int n1 = Integer.parseInt(number1.getText().toString());
