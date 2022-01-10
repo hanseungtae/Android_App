@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         int n1 = Integer.parseInt(number1.getText().toString());
         int n2 = Integer.parseInt(number2.getText().toString());
         result.setText(Integer.toString(n1+n2));
-        }
+    }
     public void minusClick(View v){
         EditText number1 = (EditText) findViewById(R.id.number1);
         EditText number2 = (EditText) findViewById(R.id.number2);
