@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:orientation="vertical"
-android:layout_width="match_parent"
-android:layout_height="match_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/number1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="첫번째숫자"
-        android:inputType="textPersonName"
-        android:text="첫번재숫자" />
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/number2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="두번째숫자"
-        android:inputType="textPersonName"
-        android:text="두번째숫자" />
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/addButton"
@@ -34,7 +32,7 @@ android:layout_height="match_parent">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="빼기"
-        android:onClick="subtractClick"/>
+        android:onClick="minusClick"/>
 
     <Button
         android:id="@+id/multiButton"
@@ -55,4 +53,5 @@ android:layout_height="match_parent">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
 </LinearLayout>
